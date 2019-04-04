@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 import {BrowserRouter as Router, Route, Link} from "react-router-dom"
 
-class App extends Component {
-  render() {
+function App() {
     return (
 	<Router basename={'/test-app'}>
 	<div className="App">
@@ -26,7 +25,6 @@ class App extends Component {
       </div>
       </Router>
     );
-  }
 }
 
 export default App;
