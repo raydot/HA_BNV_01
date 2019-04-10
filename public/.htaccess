@@ -1,3 +1,6 @@
+AddDefaultCharset utf-8
+AddType 'application/json; charset=UTF-8' .json
+
 Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
